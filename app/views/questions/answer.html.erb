@@ -1,0 +1,16 @@
+<div class="container">
+  <h1>Here's What the Coach Says</h1>
+
+  <div class="chat">
+    <p class="message"><%= @question %></p>
+    <p class="sender">-You</p>
+  </div>
+
+  <div class="chat response">
+    <p class="message"><%= @answer %></p>
+    <p class="sender">-Your coach</p>
+  </div>
+
+
+  <span class="link"><%= link_to "Ask a new question", ask_path %></span>
+</div>
